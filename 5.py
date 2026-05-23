@@ -11,6 +11,9 @@ name = input()
 
 
 def descendants(person):
+    """
+    Counts descendants
+    """
     if person not in tree:
         return 0
     count = 0
